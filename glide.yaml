@@ -1,0 +1,12 @@
+package: StellarAssetAnchor
+import:
+- package: github.com/gorilla/mux
+- package: github.com/stellar/go
+  subpackages:
+  - client/horizon
+  - build
+  - keypair
+- package: github.com/go-kit/kit
+  version: ~0.6.0
+  subpackages:
+  - log
