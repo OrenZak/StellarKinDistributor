@@ -2,7 +2,7 @@
 This project lets you run a small localhost server that communicates with stellar network.
 It will create a KIN asset on Stellar Test Network, related to the issuer seed in `config.json` file.
 You will have a rest-api `sendkin` where you need to pass address as url parameter<br/>
-and the issuer will send 1K KIN to the specific address.
+and the issuer will send 1K KIN to the specific address.<br/>
 You can create issuer seed on [Stellar Laboratory](https://www.stellar.org/laboratory/#account-creator?network=test).
 
 
@@ -27,5 +27,5 @@ glide_arch := linux-amd64  (change that to your architecture depends on the OS)
 ### How to run
 Run the command below
 ```bash
-    go build && ./KinDistributor
+    go build && ./StellarKinDistributor
 ```
