@@ -51,7 +51,7 @@ func main() {
 	kin_asset = horizon.Asset{"credit_alphanum4", "KIN", issuerSeed}
 
 	router := mux.NewRouter()
-	router.HandleFunc("/sendkin", sendKin).Methods("GET")
+	router.HandleFunc("/send", sendKin).Methods("GET")
 	level.Error(logger).Log("ListenAndServe:9000", http.ListenAndServe(":9000", router))
 }
 
