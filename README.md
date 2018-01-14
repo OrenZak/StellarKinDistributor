@@ -16,8 +16,8 @@ glide_arch := linux-amd64  (change that to your architecture depends on the OS)
 
 ```bash
 export GLIDE_VERSION = "v0.13.1"
-//set architecture depending on your machine
-//set architectures in https://github.com/Masterminds/glide/releases
+# set architecture depending on your machine
+# set architectures in https://github.com/Masterminds/glide/releases
 export GLIDE_ARCH = "linux-amd64"
 
 curl -sSLo glide.tar.gz https://github.com/Masterminds/glide/releases/download/$(GLIDE_VERSION)/glide-$(GLIDE_VERSION)-$(GLIDE_ARCH).tar.gz
