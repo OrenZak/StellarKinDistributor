@@ -10,10 +10,6 @@ You can create issuer seed on [Stellar Laboratory](https://www.stellar.org/labor
 * Clone the repo
 * This project uses [glide](https://github.com/Masterminds/glide) v0.13.1 for dependency management. Execute the following bash code for downloading glide and dependencies.  
 
-<b>params:</b><br/>
-glide_version := v0.13.1<br/>
-glide_arch := linux-amd64  (change that to your architecture depends on the OS)
-
 ```bash
 export GLIDE_VERSION = "v0.13.1"
 # set architecture depending on your machine
