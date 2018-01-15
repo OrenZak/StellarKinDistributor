@@ -6,7 +6,7 @@ You can create issuer seed on [Stellar Laboratory](https://www.stellar.org/labor
 
 
 ## How to Install
-* Install[golang](https://golang.org/doc/install#install)
+* Install [golang](https://golang.org/doc/install#install)
 * Clone the repo
 * Install [glide](https://github.com/Masterminds/glide) v0.13.1 for dependency management.
 * Execute the following bash code for downloading glide and dependencies.  
