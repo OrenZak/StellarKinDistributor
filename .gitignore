@@ -1,0 +1,8 @@
+
+# Intellij - ignore most things
+*.iml
+.idea/*
+# ...but keep these
+!.idea/codeStyleSettings.xml
+
+vendor/*
